@@ -1,0 +1,348 @@
+
+.banner
+{
+	height:100%;
+	width:100%;
+	background-image:linear-gradient(rgba(0,239,255,0.8),rgba(255,255,255,0.5)),url(images/cover.jpg);
+	background-size: cover;
+	background-position:center;
+}
+
+
+
+.getstarted input[type="button"]
+	{
+		 position: relative;
+  top: 27em;
+  left: 27em;
+  cursor:pointer;
+  text-decoration: none;
+  background: transparent;
+  color: #000;
+  font-weight:bold;
+  font-size:20;
+  font-family:times;
+  margin: auto;
+  padding: .8em 3em;
+ 
+  border-radius: 5px;
+  -webkit-transition: all .4s ease;
+		-moz-transition: all .4s ease;
+		-o-transition: all .4s ease;
+		transition: all .4s ease;
+		background:transparent;
+    }
+	
+	.getstarted input[type="button"]:hover
+	{
+		
+  -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  -webkit-transition: all .4s ease;
+		-moz-transition: all .4s ease;
+		-o-transition: all .4s ease;
+		transition: all .4s ease;
+		background:linear-gradient(90deg,#9796f0,#fbc7d4);
+		
+		
+	}
+	
+	
+	
+	
+	
+	.start input[type="button"]
+	{
+		 position: relative;
+  top: 19em;
+  left: 21em;
+  cursor:pointer;
+  text-decoration: none;
+  background: transparent;
+  color: #000;
+  font-weight:bold;
+  font-size:20;
+  font-family:times;
+  margin: auto;
+  padding: .8em 3em;
+ 
+  border-radius: 5px;
+  -webkit-transition: all .4s ease;
+		-moz-transition: all .4s ease;
+		-o-transition: all .4s ease;
+		transition: all .4s ease;
+		background:transparent;
+    }
+	
+	.start input[type="button"]:hover
+	{
+		
+  -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  -webkit-transition: all .4s ease;
+		-moz-transition: all .4s ease;
+		-o-transition: all .4s ease;
+		transition: all .4s ease;
+		background:linear-gradient(90deg,#9796f0,#fbc7d4);
+		
+		
+	}
+	
+	
+	.content
+	{
+		width:100%;
+		position:absolute;
+		top:50%;
+		transform:translateY(-50%);
+		text-align:center;
+		
+		
+	}
+	
+	.content h1
+	{
+		font-size:50px;
+		font-weight:bold;
+		margin-top:80px;
+		color:#fff;
+	}
+	
+	.content p
+	{
+		font-weight:bold;
+		font-size:20px;
+		color:#000;
+	}
+	
+	
+#contBtn:hover {
+  -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  -webkit-transition: all .4s ease;
+		-moz-transition: all .4s ease;
+		-o-transition: all .4s ease;
+		transition: all .4s ease;
+}
+	
+	.loginbox
+	{
+		width: 345px;
+		height: 517px;
+		background-image:linear-gradient(90deg,#1cd8d2,#93edc7);
+		/*transition: width 2s, height 2s, transform 2s;*/
+		color: #000;
+		top: 9%;
+		left: 35%;
+		position: absolute;
+		/*transform: translate(-50%,-50%);*/
+		box-sizing: border-box;
+		padding: 90px 30px;
+		border-radius:5%;
+		
+		
+		-webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  -webkit-transition: all .4s ease;
+		-moz-transition: all .4s ease;
+		-o-transition: all .4s ease;
+		transition: all .4s ease;
+	}
+	
+	
+	
+	.loginbox p
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: bold;
+	}
+	
+	.loginbox h2
+	{
+		text-align: center;
+		margin-top:none;
+		
+	}
+
+	.loginbox input
+	{
+		width: 100%;
+		margin-bottom: 20px;
+		color: black;
+	}
+	
+	.loginbox input[type="text"],input[type="password"]
+	{
+		border: none;
+		border-bottom: 1px solid black;
+		background: transparent;
+		outline: none;
+		height: 40px;
+		color: black;
+		font-size: 16px;
+	}
+	
+	.loginbox input[type="submit"]
+	{
+		border: none;
+		outline: none;
+		height: 40px;
+		background:#7fffd4;
+		color: #000;
+		font-size: 18px;
+		border-radius: 20px;
+		cursor: pointer;
+	}
+	.loginbox input[type="button"]
+	{
+		border: none;
+		outline: none;
+		height: 40px;
+		background:red;
+		color: #000;
+		font-size: 18px;
+		border-radius: 20px;
+		cursor: pointer;
+	}
+	
+	.loginbox span
+	{
+		
+		position: relative;
+		left:0;
+		padding: 5px ;
+		font-size: 16px;
+		margin: 10px 0;
+		pointer-events: none;
+		transition: 0.5s;
+		color:#666;
+		font-weight:bold;
+		transform: translateY(-20px);
+		
+	}
+	
+	.avatar
+	{
+		width: 100px;
+		height:100px;
+		border-radius:none;
+		position: absolute;
+		top: -40px;
+		left: 115px;
+		
+	}
+	
+	
+	
+	.eye 
+	{
+		position:absolute;
+		cursor:pointer;
+		right:50px;
+		top:250px;
+		transform: translate(0,-50%);
+	}
+	
+	.eye1 
+	{
+		position:absolute;
+		cursor:pointer;
+		right:50px;
+		top:360px;
+		transform: translate(0,-50%);
+	}
+	
+	.registerbox
+	{
+        width: 500px;
+		height: 550px;
+		/*transition: width 2s, height 2s, transform 2s;*/
+		background: white;
+		color: #000;
+		font-weight:bold;
+		top: 10%;
+		left: 30%;
+		position: absolute;
+		/*transform: translate(-50%,-50%);*/
+		box-sizing: border-box;
+		padding: 70px 30px;
+		border-radius: 5%;
+		
+	}
+	
+	.registerbox p
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: ;
+		font-size: 14px;
+	}
+	
+	.registerbox input
+	{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
+	.registerbox input[type="text"],input[type="number"],input[type="textarea"]
+	{
+		border: none;
+		border-bottom: 1px solid #000;
+		background: transparent;
+		outline: none;
+		height: 40px;
+		color: #000;
+		font-size: 12px;
+		
+	}
+	.registerbox input[type="button"]
+	{
+		width: 100px;
+		background:cyan;
+		color: #fff;
+		border: none;
+		cursor: pointer;
+		padding: 10px;
+		font-size: 18px;
+	    border-radius: 20px;
+		justify-content:center;
+	}
+	.registerbox input[type="reset"]
+	{
+	
+	width: 100px;
+		background: red;
+		color: #fff;
+		border: none;
+		cursor: pointer;
+		padding: 10px;
+		font-size: 18px;
+	    border-radius: 20px;
+		justify-content:center;
+		
+	}
+	.avatar
+	{
+		width: 100px;
+		height:100px;
+		border-radius:none;
+		position: absolute;
+		top: -40px;
+		left: 190px;
+		
+	}
+	.avatar1
+	{
+		width: 100px;
+		height:100px;
+		border-radius:none;
+		position: absolute;
+		top: -40px;
+		left: 126px;
+		
+	}

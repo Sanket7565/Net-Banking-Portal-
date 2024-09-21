@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>E-PAY.COM</title>
+<script>
+var state= false;
+ function toggle()
+ {
+   if(state)
+   {
+    document.getElementById("pass").setAttribute("type","password");
+	document.getElementById("eye").setAttribute("class","fa fa-eye-slash");
+	state=false;
+	
+   }
+   else
+   {
+    document.getElementById("pass").setAttribute("type","text");
+	document.getElementById("eye").setAttribute("class","fa fa-eye");
+	state=true;
+   }
+ }
+</script>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<body bgcolor="PaleTurquoise">
+
+<div class="loginbox">
+<img src="images/user.png" class="avatar1">
+<h2>  </h2>
+<form name="form1" method="POST"action="checklogin.php">
+<br>
+<span>Username</span>
+<input type="text" name="uname" id="uname" placeholder=" Enter Valid Username" required>
+<span>Password</span><span></span>
+<input type="password" name="pass" id="pass" placeholder=" Enter Valid Password" required  >
+<div class="eye">
+<i class="fa fa-eye-slash" aria-hidden="true" id="eye" onclick="toggle();"></i>
+</div>
+<br>
+<br>
+<input type="submit" name="LOGIN" value="LOGIN" id="contBtn"  >
+<a href="home.html">
+<input type="button" name="back" value="BACK" id="contBtn"  >
+</a>
+
+</form>
+
+</div>
+</div>
+</body>
+</html>

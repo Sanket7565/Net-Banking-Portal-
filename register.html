@@ -1,0 +1,124 @@
+<html>
+	<head>
+	<title>Welcome to E-Banking</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script language="javascript" type="text/javascript">
+	var state= false;
+ function toggle()
+ {
+   if(state)
+   {
+    document.getElementById("pass").setAttribute("type","password");
+	document.getElementById("eye").setAttribute("class","fa fa-eye-slash");
+	state=false;
+	
+   }
+   else
+   {
+    document.getElementById("pass").setAttribute("type","text");
+	document.getElementById("eye").setAttribute("class","fa fa-eye");
+	state=true;
+   }
+ }
+ 
+ 
+ function validate()
+{
+	var pass1 =window.document.forms.form1.pass.value;
+	var pass2 =window.document.forms.form1.cpass.value;
+	if(pass1==pass2)
+	{
+	window.document.forms.form1.submit();	
+	} 
+	else
+	{
+		alert("Password doesnt match");
+	}
+	
+}
+	</script>
+<style>
+ .container{
+	width: 450px;
+	padding: 4% 4% 4%;
+	margin : auto;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: #fff;
+	text-align: center;
+	position:relative;
+	top:50px;
+	vertical-align: middle;
+}
+
+form{
+	align-content: center;
+	padding:10px;
+	margin-top: 15px;
+}
+input
+{
+	margin :5px;
+}
+
+a{
+	color:#f00f53;
+	text-decoration: none;
+	align-content: right;
+}
+
+.button{
+	width :150px;
+	margin :10px;
+	padding:5px;
+	font-weight: bold;
+	background-color: #ff474a;
+	text-align: center;
+	position:relative;
+	right:-100px;
+	color:white;
+}
+
+.button:hover {
+  background: #a30003;
+}
+body{
+	background-color: PaleTurquoise;
+}
+    body
+    {
+    background-color : PaleTurquoise ;
+    </style>
+	</head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <body bgcolor="PaleTurquoise">
+		
+		<form action="registercheck.php" method="POST" name="form1">
+		
+
+<div class="registerbox">
+<img src="images/user.png" class="avatar">
+<center><h2>The Registraion Page</h2>
+		<a href="home.html" >Click Here to Go Back.</a><br/></center>
+
+<p>Account Number*</p>
+<input type="number" name="acc" required id="acc"   placeholder=" Enter Account Number "  required >
+<p> Create Username*</p>
+<input type="text" name="uname" id="uname" placeholder=" Create User-Name" required >
+<p> Create Password*</p>
+<input type="password" name="pass" id="pass" placeholder=" Create Password" required >
+<div class="eye1">
+<i class="fa fa-eye-slash" aria-hidden="true" id="eye" onclick="toggle();"></i>
+</div>
+<p> Confirm Password*</p>
+<input type="text" name="cpass" id="cpass" placeholder=" Confirm Password" required >
+
+							   <center>
+							   <input type="reset" value="Reset" id="reset" name="reset"  >
+<input type="button" value="Register" id="register" name="register" onclick="validate()"></center>
+<center><a href="login.html"> <h5 style="color:green;">Already have an account ? Login Here! </h5></a></center>
+</div>
+
+	</form>	
+	</body>
+	
+</html>
